@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budmang.Budgets.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budmang.Budgets.Tests", "src\Modules\Budgets\Budmang.Budgets.Tests\Budmang.Budgets.Tests.csproj", "{CECCE162-2A7A-488D-815F-9D38B743EF6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budmang.Architecture.Tests", "src\Budmang.Architecture.Tests\Budmang.Architecture.Tests.csproj", "{E49FD0A9-F6BC-4A21-A9AB-92FDA2FB9F87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{CECCE162-2A7A-488D-815F-9D38B743EF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CECCE162-2A7A-488D-815F-9D38B743EF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CECCE162-2A7A-488D-815F-9D38B743EF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49FD0A9-F6BC-4A21-A9AB-92FDA2FB9F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49FD0A9-F6BC-4A21-A9AB-92FDA2FB9F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49FD0A9-F6BC-4A21-A9AB-92FDA2FB9F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49FD0A9-F6BC-4A21-A9AB-92FDA2FB9F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
