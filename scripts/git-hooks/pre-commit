@@ -1,5 +1,7 @@
 #!/bin/bash
 
 echo 'Formating files before commit'
-dotnet format --include $(git diff --name-only --cached | tr '\n' ' ')
+staged_files=$(git diff --name-only --cached | tr '\n' ' ')
+dotnet format --include $staged_files
+git add $staged_files
 echo 'Files formated successfully'
