@@ -4,7 +4,7 @@ using static ArchUnitNET.Fluent.ArchRuleDefinition;
 
 namespace Budmang.Architecture.Tests;
 
-public class CommonTests: BaseArchitecturalTests
+public class CommonTests : BaseArchitecturalTests
 {
     [Fact]
     public void Domain_should_not_reference_other_projects()
